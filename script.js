@@ -246,3 +246,10 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('load', animateElements);
     window.addEventListener('scroll', animateElements);
 });
+
+
+
+document.getElementById('Dark-Theme').addEventListener('click', () => {
+    document.body.classList.toggle('dark-theme');
+});
+
